@@ -254,6 +254,14 @@ a{color:inherit;}
 .relation-card h3{font-family:'Oswald',sans-serif;font-size:18px;color:var(--cream);margin-bottom:3px;}
 .relation-role{font-size:11.5px;color:var(--gold);font-family:'Oswald',sans-serif;letter-spacing:0.05em;margin-bottom:12px;}
 .relation-card p{font-size:13px;color:#C7CEDB;text-align:left;}
+.relation-stats{margin-top:14px;text-align:left;}
+.relation-stat-row{display:flex;gap:10px;padding:8px 0;border-bottom:1px solid var(--line);}
+.relation-stat-row:last-child{border-bottom:none;}
+.relation-stat-label{
+  width:64px;flex-shrink:0;color:var(--muted);font-weight:500;
+  font-family:'Oswald',sans-serif;font-size:10px;letter-spacing:0.05em;line-height:1.5;
+}
+.relation-stat-value{flex:1;color:#E2E7F0;font-size:12.5px;line-height:1.5;word-break:keep-all;}
 
 /* ===== 시작 설정 아코디언 ===== */
 .start-list{display:flex;flex-direction:column;gap:10px;max-width:680px;margin:0 auto;}
@@ -475,13 +483,25 @@ a{color:inherit;}
         <div class="relation-avatar"><img src="https://raw.githubusercontent.com/dolmaengi113/GLU_TackleMe/master/images/amara_profile.jpg" alt="아마라 손튼"></div>
         <h3>아마라 손튼</h3>
         <div class="relation-role">MALIK'S TWIN SISTER · MODEL</div>
-        <p>말릭의 쌍둥이 여동생. 도도하고 세련된 고양이상 이미지로 오빠와는 정반대로 차분한 인상을 준다. 겉으론 도도해도 말릭 얘기가 나오면 은근히 챙긴다.</p>
+        <div class="relation-stats">
+          <div class="relation-stat-row"><div class="relation-stat-label">나이</div><div class="relation-stat-value">22세</div></div>
+          <div class="relation-stat-row"><div class="relation-stat-label">성별</div><div class="relation-stat-value">여성</div></div>
+          <div class="relation-stat-row"><div class="relation-stat-label">학과/학년</div><div class="relation-stat-value">미디어커뮤니케이션학과 · 4학년</div></div>
+          <div class="relation-stat-row"><div class="relation-stat-label">관계</div><div class="relation-stat-value">말릭의 쌍둥이 여동생</div></div>
+          <div class="relation-stat-row"><div class="relation-stat-label">특징</div><div class="relation-stat-value">모델 활동 중 · 도도한 고양이상, 오빠와 정반대로 차분한 인상. 겉으론 도도해도 말릭 얘기 나오면 은근히 챙김</div></div>
+        </div>
       </div>
       <div class="relation-card reveal reveal-delay1">
         <div class="relation-avatar"><img src="https://raw.githubusercontent.com/dolmaengi113/GLU_TackleMe/master/images/chase_profile.jpg" alt="체이스 밀러"></div>
         <h3>체이스 밀러</h3>
         <div class="relation-role">QUARTERBACK · CAMPUS KING</div>
-        <p>GLU 풋볼팀 쿼터백, "Campus King"이라 불리는 학교 최고 인기남. 말릭과는 포지션이 다른 같은 팀 동료로, 경기장 밖에서는 함께 파티를 주도하는 절친한 사이.</p>
+        <div class="relation-stats">
+          <div class="relation-stat-row"><div class="relation-stat-label">나이</div><div class="relation-stat-value">22세</div></div>
+          <div class="relation-stat-row"><div class="relation-stat-label">성별</div><div class="relation-stat-value">남성</div></div>
+          <div class="relation-stat-row"><div class="relation-stat-label">학과/학년</div><div class="relation-stat-value">경영학과 · 4학년</div></div>
+          <div class="relation-stat-row"><div class="relation-stat-label">관계</div><div class="relation-stat-value">말릭과 같은 풋볼팀 동료(포지션 다름)</div></div>
+          <div class="relation-stat-row"><div class="relation-stat-label">특징</div><div class="relation-stat-value">"Campus King"이라 불리는 학교 최고 인기남 · 경기장 밖에서는 함께 파티를 주도하는 절친한 사이</div></div>
+        </div>
       </div>
     </div>
   </div>
