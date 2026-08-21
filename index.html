@@ -70,8 +70,12 @@ a{color:inherit;}
 .hero-art-wrap{position:relative;width:100%;max-width:900px;margin:0 auto;}
 .hero-art-wrap img{width:100%;display:block;}
 .hero-art-wrap::after{
-  content:"";position:absolute;left:0;right:0;bottom:0;height:35%;
-  background:linear-gradient(180deg, transparent 0%, var(--bg) 100%);
+  content:"";position:absolute;left:0;right:0;bottom:0;height:60%;
+  background:linear-gradient(180deg,
+    transparent 0%,
+    rgba(10,14,23,0.05) 25%,
+    rgba(10,14,23,0.35) 55%,
+    var(--bg) 100%);
 }
 .hero-content{position:relative;z-index:1;padding:0 20px;}
 .hero .eyebrow{
